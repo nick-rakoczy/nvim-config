@@ -1,0 +1,15 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri May  3 19:51:25 2024
+Invocation: foremost 
+Output directory: /home/nickrak/nvim-config/lua/custom/plugins/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: stdin
+Start: Fri May  3 19:51:25 2024
+Length: Unknown
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Interrupt received at Fri May  3 19:51:27 2024
