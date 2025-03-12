@@ -1,1 +1,7 @@
-return {}
+return {
+  exclude = {
+    elixirls = {},
+    lexical = {},
+    erlangls = {},
+  },
+}

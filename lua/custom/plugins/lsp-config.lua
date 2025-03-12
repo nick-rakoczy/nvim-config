@@ -9,7 +9,15 @@ local available_servers = {
   elixirls = {},
   lexical = {},
   erlangls = {},
-  helm_ls = {},
+  helm_ls = {
+    settings = {
+      ['helm-ls'] = {
+        yamlls = {
+          path = 'yaml-language-server',
+        },
+      },
+    },
+  },
   html = {},
   htmx = {},
   marksman = {},
@@ -33,11 +41,11 @@ local local_server_config = require 'local.lsps'
 local servers = {}
 
 for k, v in pairs(available_servers) do
-  skip = false
+  local skip = false
 
   if local_server_config ~= nil then
-    if local_server_config["exclude"] ~= nil then
-      if local_server_config["exclude"][k] ~= nil then
+    if local_server_config.exclude ~= nil then
+      if local_server_config.exclude[k] ~= nil then
         skip = true
       end
     end
