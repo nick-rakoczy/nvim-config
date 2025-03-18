@@ -1,5 +1,5 @@
 return {
   {
-    'tpope/vim-fugitive',
+    'https://tpope.io/vim/fugitive.git',
   },
 }
