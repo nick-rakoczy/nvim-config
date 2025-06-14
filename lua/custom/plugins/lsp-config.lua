@@ -1,14 +1,14 @@
 local available_servers = {
+  bashls = {},
   clangd = {},
   cmakelang = {},
-  gopls = {},
-  pyright = {},
-  rust_analyzer = {},
-  bashls = {},
+  codelldb = {},
   cssls = {},
+  delve = {},
   elixirls = {},
-  lexical = {},
   erlangls = {},
+  gopls = {},
+  gradle_ls = {},
   helm_ls = {
     settings = {
       ['helm-ls'] = {
@@ -20,11 +20,9 @@ local available_servers = {
   },
   html = {},
   htmx = {},
-  marksman = {},
-  sqls = {},
-  terraformls = {},
-  yamlls = {},
   jsonls = {},
+  kotlin_language_server = {},
+  lexical = {},
   lua_ls = {
     settings = {
       Lua = {
@@ -34,6 +32,16 @@ local available_servers = {
       },
     },
   },
+  marksman = {},
+  nginx_language_server = {},
+  opa = {},
+  pyright = {},
+  rust_analyzer = {},
+  sqls = {},
+  stylua = {},
+  terraformls = {},
+  trivy = {},
+  yamlls = {},
 }
 
 local local_server_config = require 'local.lsps'
